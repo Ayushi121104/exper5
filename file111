@@ -1,16 +1,16 @@
 #include<stdio.h>  
  int main()    
 {    
-int n,sum=0,m;    
+int a,c=0,b;    
 printf("Enter the value of a and b:");    
-scanf("%d",&n);    
-while(n>0)    
+scanf("%d",&a);    
+while(a>0)    
 {    
-m=n%10;    
-sum=sum+m;    
-n=n/10;    
+b=a%10;    
+c=c+b;    
+a=a/10;    
 }    
-printf("Sum is=%d",sum);    
+printf("Sum is=%d",c);    
 return 0;  
 }   
 
