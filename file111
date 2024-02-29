@@ -2,7 +2,7 @@
  int main()    
 {    
 int a,c=0,b;    
-printf("Enter the value of a and b:");    
+printf("Enter the value");    
 scanf("%d",&a);    
 while(a>0)    
 {    
