@@ -10,7 +10,7 @@ b=a%10;
 c=c+b;    
 a=a/10;    
 }    
-printf("Sum is=%d",c);    
+printf("Total sum of a and b is=%d",c);    
 return 0;  
 }   
 
